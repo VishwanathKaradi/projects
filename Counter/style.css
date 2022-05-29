@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vw;
+}
+.decrease,
+.reset,
+.increase {
+  width: 10em;
+  height: 3em;
+  font-size: 1.5vw;
+  margin: 30px 10px 0 10px;
+  font-weight: bold;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.zero {
+  color: rgb(70, 0, 233);
+}
